@@ -1,23 +1,23 @@
 # memberlist
-Finished and uploaded January 21st, 2023. Used React, Node.JS, Express, and MySQL. This is a simple web application that allows the user to add members into a member tracking database in mySQL and displays it on the webpage. The user can also delete members or update each individual members (CRUD). Each member has its own user id, name, password, age, and phone number. </br>
-You'll need to download Node.js: https://nodejs.org/en/ </br>
-To run: </br>
-First create a table in a database in MySQL by typing: </br>
-CREATE TABLE members ( </br>
-	id INT NOT NULL AUTO_INCREMENT, </br>
-	userid VARCHAR(20) NOT NULL, </br>
-	password VARCHAR(20) NOT NULL, </br>
-	name VARCHAR(20) default NULL, </br>
-	age INT default NULL, </br>
-	phone_num CHAR(10) NOT NULL, </br>
-	createdAt DATE NOT NULL, </br>
-	updatedAt DATE NOT NULL, </br>
-	PRIMARY KEY (id) </br>
-); </br>
-Frontend: Go to the frontend directory in the command prompt and type "npm start" in the command prompt. </br>
-Backend: Go to the backend/config/database.js file and enter the name of the database and the pasword </br>
-Then go to the backend directory in the command prompt and type "npx nodemon index" in the command prompt. </br>
-Reference: https://mfikri.com/en/blog/node-express-react-mysql </br>
+Finished and uploaded January 21st, 2023. Used React, Node.JS, Express, and MySQL. This is a simple web application that allows the user to add members into a member tracking database in mySQL and displays it on the webpage. The user can also delete members or update each individual members (CRUD). Each member has its own user id, name, password, age, and phone number. <br />
+You'll need to download Node.js: https://nodejs.org/en/ <br />
+To run: <br />
+First create a table in a database in MySQL by typing: <br />
+CREATE TABLE members ( <br />
+	id INT NOT NULL AUTO_INCREMENT, <br />
+	userid VARCHAR(20) NOT NULL, <br />
+	password VARCHAR(20) NOT NULL, <br />
+	name VARCHAR(20) default NULL, <br />
+	age INT default NULL, <br />
+	phone_num CHAR(10) NOT NULL, <br />
+	createdAt DATE NOT NULL, <br />
+	updatedAt DATE NOT NULL, <br />
+	PRIMARY KEY (id) <br />
+); <br />
+Frontend: Go to the frontend directory in the command prompt and type "npm start" in the command prompt. <br />
+Backend: Go to the backend/config/database.js file and enter the name of the database and the pasword <br />
+Then go to the backend directory in the command prompt and type "npx nodemon index" in the command prompt. <br />
+Reference: https://mfikri.com/en/blog/node-express-react-mysql <br />
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
