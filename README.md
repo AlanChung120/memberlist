@@ -14,9 +14,9 @@ CREATE TABLE members ( <br />
 	updatedAt DATE NOT NULL, <br />
 	PRIMARY KEY (id) <br />
 ); <br />
-Frontend: Go to the frontend directory in the command prompt and type "npm start" in the command prompt. <br />
+Frontend: Go to the frontend directory in the command prompt and type "npm install" then "npm start" in the command prompt. <br />
 Backend: Go to the backend/config/database.js file and enter the name of the database and the pasword <br />
-Then go to the backend directory in the command prompt and type "npx nodemon index" in the command prompt. <br />
+Then go to the backend directory in the command prompt and type "npm install" then "npx nodemon index" in the command prompt. <br />
 Reference: https://mfikri.com/en/blog/node-express-react-mysql <br />
 # Getting Started with Create React App
 
