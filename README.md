@@ -1,6 +1,6 @@
 # memberlist
 Finished and uploaded January 21st, 2023. Used React, Node.JS, Express, and MySQL. This is a simple web application that allows the user to add members into a member tracking database in mySQL and displays it on the webpage. The user can also delete members or update each individual members (CRUD). Each member has its own user id, name, password, age, and phone number. <br />
-You'll need to download Node.js: https://nodejs.org/en/ <br />
+You'll need to download Node.js (20.14.0): https://nodejs.org/en/ <br />
 To run: <br />
 First create a table in a database in MySQL by typing: <br />
 CREATE TABLE members ( <br />
